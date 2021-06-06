@@ -9,7 +9,7 @@ morgan.token('data', (req) => {
 })
 
 app.use(cors())
-
+app.use(express.static('build'))
 app.use(express.json())
 
 app.use(
