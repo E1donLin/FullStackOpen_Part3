@@ -1,0 +1,18 @@
+DELETE http://localhost:3001/api/persons/6
+
+###
+POST http://localhost:3001/api/persons
+content-type: application/json
+
+{
+    "name": "Dan Abramov"
+}
+
+###
+POST http://localhost:3001/api/persons
+content-type: application/json
+
+{
+   "name": "Liisa Marttinen",
+   "number": "040-243563"
+}
